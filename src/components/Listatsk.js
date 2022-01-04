@@ -29,16 +29,14 @@ const [x,setx]=useState(false)
 </div>):null}
 
         </div>
-        <div className="bt">
-            
-            <Button variant="dark"  onClick={()=>{setfilter(true);setx(true)}}>Done</Button>{' '}
-            <br/>
-            <br/>
-            <Button variant="dark"  onClick={()=>{setfilter(false);setx(true)}}>Undone</Button>{' '}
-            <br/>
-            <br/>
-            <Button variant="dark"  onClick={()=>setx(false)}>All</Button>{' '}
-            </div>
+            <div className="bt">
+                
+                <Button variant="dark"  onClick={()=>{setfilter(true);setx(true)}}>Done</Button>{' '}
+                
+                <Button variant="dark"  onClick={()=>{setfilter(false);setx(true)}}>Undone</Button>{' '}
+                
+                <Button variant="dark"  onClick={()=>setx(false)}>All</Button>{' '}
+                </div>
         </div>
     )
 }

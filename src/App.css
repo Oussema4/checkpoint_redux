@@ -1,2 +1,2 @@
 .center{text-align: center;}
-.bt{display: flex;justify-content: right;justify-content: space-around;flex-direction: column;padding-top: 50px;}
+.bt{display: flex;justify-content: space-around; margin: auto;   width: 200px;margin-top: 50px;}
